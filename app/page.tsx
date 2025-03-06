@@ -21,7 +21,7 @@ export default function Home() {
             .
           </li>
           <li>Save and see your changes instantly.</li>
-          <li>Update workFlow dAniel</li>
+          <li>Update workFlow Daniel Zuin</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
