@@ -7,8 +7,14 @@ env:
   #  branches-ignore:
    #   - main
 
+#on:
+   #workflow_dispatch 
+
 on:
-   workflow_dispatch      
+    push:
+        branches:
+           - main  
+
 jobs:
   Deploy-Preview:
     runs-on: ubuntu-latest
